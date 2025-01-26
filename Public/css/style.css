@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  .navbar{
+    position: absolute;
+    top:0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .container{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(38deg, rgba(179,23,71,0.9864320728291317) 23%, rgba(152,212,9,1) 24%, rgba(30,16,135,0.5634628851540616) 25%);  }
+  /* The Table Attributes */
+  table {
+    text-align: center;
+    width: 1000px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    border-bottom: 5px solid #009688;
+  }
+  /* The Attributes that the Head and the Body of the Table Share */
+  th,
+  td {
+    padding: 10px;
+  }
+  /* Attributes of the Head of the Body */
+  th {
+    background-color: #404040;
+    background: linear-gradient(38deg, rgba(184,140,5,1) 48%, rgba(0,0,0,1) 49%);
+    background: linear-gradient(38deg, rgba(179,23,71,1) 48%, rgba(30,16,135,1) 49%);
+   padding: 20px 0;
+    color: white;
+  }
+  /* Attributes of Each Cell */
+  td {
+    background-color: #eee;
+  }
+  /*Attributes of Span*/
+  span {
+    padding: 5px 10px;
+    margin: 3px;
+    color: white;
+  }
+  /*Attributes */
+  .blue {
+      border: 1px solid #03a9f4;
+      background-color: #03a9f4;
+  }
+  .blue:hover{
+      border: 1px solid #03a9f4;
+      background: transparent;
+      color: #111;
+    transition: .5s ease-in-out;
+  
+  }
+  .pink {
+    background-color: #e91e63;
+    border: 1px solid #e91e63;
+  
+  
+  }
+  .pink:hover{
+    border: 1px solid #e91e63;
+    background: transparent;
+    color: #111;
+    transition: .5s ease-in-out;
+  }
